@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pop Zap : supprimer son compte</title>
+<style>
+  :root { --bg: #0d0b1a; --fg: #ece9f7; --soft: #b6b0cf; --accent: #3fe0f0; --line: #2c2749; }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f7f6fc; --fg: #1b1733; --soft: #4b4670; --accent: #0a6f7c; --line: #d9d5ec; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2rem max(16px, env(safe-area-inset-right)) 3rem max(16px, env(safe-area-inset-left)); }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .4rem; color: var(--accent); }
+  p, li { color: var(--fg); }
+  a { color: var(--accent); }
+  .maj { color: var(--soft); margin: 0 0 1.5rem; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: .35rem 0; }
+</style>
+</head>
+<body>
+<!--
+  BROUILLON DU 05/11/2026, NON VALIDÉ PAR LE PROPRIÉTAIRE : à relire avant publication.
+  À publier avec la version 1.2 de Pop Zap (obligation de Google Play : adresse
+  web de suppression de compte, à renseigner dans la Play Console, section
+  « Sécurité des données »). L’adresse de cette page doit aussi figurer dans la
+  politique de confidentialité.
+-->
+<main>
+  <h1>Supprimer son compte Pop Zap</h1>
+  <p class="maj">Dernière mise à jour : [date de publication de la version 1.2].</p>
+
+  <p>Le compte Pop Zap est facultatif. Cette page explique comment supprimer le vôtre, et ce qui est effacé.</p>
+
+  <h2>Depuis l’application (le plus simple, immédiat)</h2>
+  <ol>
+    <li>Ouvrez Pop Zap, puis <strong>Paramètres</strong>.</li>
+    <li>Dans la section <strong>Compte Pop Zap</strong>, touchez <strong>Supprimer mon compte et mes données</strong>.</li>
+    <li>Lisez le message, puis confirmez avec <strong>Supprimer</strong>.</li>
+  </ol>
+  <p>La suppression est immédiate et définitive.</p>
+
+  <h2>Si vous n’avez plus l’application</h2>
+  <p>Écrivez à <a href="mailto:ajustemesure06@gmail.com?subject=Suppression%20de%20mon%20compte%20Pop%20Zap">ajustemesure06@gmail.com</a> <strong>depuis l’adresse e-mail du compte Google</strong> que vous avez utilisé pour vous connecter, avec l’objet « Suppression de mon compte Pop Zap ». Votre compte et vos données sont supprimés sous 30 jours au plus, et vous recevez une confirmation. La demande doit venir de l’adresse du compte, pour que personne ne puisse supprimer le compte d’un autre.</p>
+
+  <h2>Ce qui est supprimé</h2>
+  <ul>
+    <li>votre compte (identifiant, adresse e-mail et nom de votre compte Google chez Firebase Authentication) ;</li>
+    <li>votre profil : pseudo, avatar, code d’ami ;</li>
+    <li>votre sauvegarde en ligne : records, XP, compteurs et badges ;</li>
+    <li>vos résultats du défi du jour et votre place dans les classements ;</li>
+    <li>vos liens d’amis, dans les deux sens ;</li>
+    <li>le compteur technique d’essais de codes d’ami.</li>
+  </ul>
+
+  <h2>Ce qui n’est pas supprimé</h2>
+  <ul>
+    <li>Les données de jeu enregistrées <strong>sur votre téléphone</strong> : elles ne sont jamais envoyées à l’éditeur. Désinstallez l’application ou effacez ses données dans les réglages d’Android pour les supprimer.</li>
+    <li>Les journaux techniques des fonctions serveur (identifiant de compte, adresse IP, date, sans le contenu des échanges) : ils s’effacent d’eux-mêmes chez Google au bout d’environ 30 jours [durée à vérifier dans la console Google Cloud avant publication].</li>
+    <li>Votre achat Premium éventuel : il est lié à votre compte Google Play et géré par Google. Supprimer votre compte Pop Zap ne le rembourse pas et ne l’annule pas.</li>
+  </ul>
+
+  <h2>Garder le compte, effacer seulement une partie</h2>
+  <p>Pour effacer uniquement les données de jeu de votre téléphone, utilisez <strong>Paramètres, Effacer mes données de jeu</strong>. La sauvegarde en ligne n’est jamais remplacée par une sauvegarde vide.</p>
+
+  <p>Plus d’informations : <a href="https://ajustemesure06-hub.github.io/popzap-confidentialite/">politique de confidentialité de Pop Zap</a>.</p>
+</main>
+</body>
+</html>
